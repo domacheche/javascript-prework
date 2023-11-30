@@ -57,7 +57,7 @@ buttonScissors.addEventListener('click', function() {
 function buttonClicked(playerMove) {
   console.log(playerMove + ' został kliknięty');
 
-  var playerMove, computerMove, randomNumber;
+  let playerMove, computerMove, randomNumber;
 
   playerMove = argButtonName; 
   console.log('ruch gracza to: ' + playerMove);
